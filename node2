@@ -1,0 +1,18 @@
+
+
+
+1.Node.js event-driven architecture: Node.js uses a single-threaded event loop to handle asynchronous I/O operations efficiently, allowing it to handle multiple requests concurrently without blocking.
+
+2.Scaling in Node.js: Despite being single-threaded, Node.js can handle thousands of requests per second due to its non-blocking, asynchronous nature. It delegates I/O operations to the system kernel and utilizes clustering for multi-core systems.
+
+3.process.exit: Terminates the Node.js process with a specified exit code, useful for programmatically shutting down the application or performing cleanup.
+
+4.req.url, req.headers, req.method: These are properties of the req object in a Node.js HTTP server:
+
+req.url: Contains the URL string of the incoming HTTP request.
+req.headers: Contains the HTTP headers of the incoming request.
+req.method: Contains the HTTP method used in the incoming request.
+
+
+
+
